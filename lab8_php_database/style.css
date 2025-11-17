@@ -1,0 +1,80 @@
+/* === Cute Pastel Purple Theme === */
+
+body{
+  margin:0;
+  padding:40px 20px;
+  background:#f4eaff; /* ungu pastel muda */
+  font-family:"Poppins", sans-serif;
+  color:#4a3e66;
+}
+
+.container{
+  max-width:600px;
+  margin:auto;
+  background:#ffffff;
+  border:2px solid #d8c7ff; /* soft line */
+  border-radius:14px;
+  padding:28px;
+  box-shadow:0 8px 20px rgba(180,160,255,0.25); /* pastel glow */
+}
+
+h1{
+  font-size:28px;
+  margin:0 0 20px;
+  color:#6f54b3;
+  font-weight:700;
+  letter-spacing:0.5px;
+}
+
+label{
+  display:block;
+  margin-bottom:6px;
+  font-size:14px;
+  color:#6a5a8c;
+  font-weight:600;
+}
+
+/* Inputs cute pastel */
+input, select{
+  width:100%;
+  padding:12px 14px;
+  border-radius:12px;
+  border:2px solid #dcd0ff;
+  background:#faf7ff;
+  color:#4a3e66;
+  font-size:14px;
+  margin-bottom:18px;
+  transition:0.2s;
+}
+
+input:focus, select:focus{
+  border-color:#bca4ff;
+  background:#f6f1ff;
+  box-shadow:0 0 8px rgba(150,120,255,0.35);
+  outline:none;
+}
+
+input[type="file"]{
+  padding:8px;
+  background:#f6f0ff;
+}
+
+/* Cute Button */
+button{
+  padding:12px 20px;
+  border-radius:12px;
+  background:#c9b3ff;
+  border:0;
+  font-size:14px;
+  color:#ffffff;
+  font-weight:600;
+  cursor:pointer;
+  transition:0.15s;
+  box-shadow:0 4px 12px rgba(150,120,255,0.35);
+}
+
+button:hover{
+  background:#b197ff;
+  box-shadow:0 6px 16px rgba(150,120,255,0.45);
+  transform:translateY(-2px);
+}
